@@ -1,6 +1,6 @@
 {
   "build": {
-    "goal": "package"
+    "goal": "-B package"
   },
   "deploy": {
     "goal": "spring-boot:run"

@@ -3,6 +3,6 @@
     "goal": "-B package"
   },
   "deploy": {
-    "goal": "spring-boot:run"
+    "goal": "-Xmx120m spring-boot:run"
   }
 }

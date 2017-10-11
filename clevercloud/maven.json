@@ -1,8 +1,8 @@
 {
   "build": {
-    "goal": "-B package"
+    "goal": "-Dtest.active=false -DskipTests -B package"
   },
   "deploy": {
-    "goal": "-DargLine=\"-Xmx180m\" spring-boot:run"
+    "goal": "spring-boot:run"
   }
 }

@@ -3,6 +3,6 @@
     "goal": "-B package"
   },
   "deploy": {
-    "goal": "-Xmx120m spring-boot:run"
+    "goal": "-DargLine=\"-Xmx120m\" spring-boot:run"
   }
 }

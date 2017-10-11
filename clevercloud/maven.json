@@ -1,5 +1,8 @@
 {
+  "build": {
+    "goal": "package"
+  },
   "deploy": {
-    "goal": "-Dtest.active=false -Dexec.mainClass=\"org.guegan.springboottest.SpringbootTestApplication\" spring-boot:run"
+    "goal": "spring-boot:run"
   }
 }
